@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Koala Holla</title>
+  <script src="vendors/jquery-3.0.0.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/vendors/bootstrap/dist/js/bootstrap.js">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"></script> -->
+  <link rel="stylesheet" href="./././vendors/font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="banner" class="row">
+      <div class="col-sm-5">
+        <h1 id="siteTitle">Koala Holla</h1>
+      </div>
+      <div class="col-sm-2 logo">
+        <img src="images/sampleResize2.png" />
+      </div>
+      <div class="col-sm-5">
+        <h2 class="address">1976 Llama Comma Drive
+          <br>Walla Walla, WA</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div id="addKoala">
+        <h2 id="formLabel">Add Koala</h2>
+        <div>
+          <input type="text" id="nameIn" value="" placeholder="Name">
+          <input type="number" id="ageIn" value="" placeholder="Age (number)">
+          <input type="text" id="genderIn" value="" placeholder="Gender (M/F)">
+          <input type="text" id="readyForTransferIn" value="" placeholder="Transfer (Y/N)">
+          <input type="text" id="notesIn" value="" placeholder="Notes">
+          <button type="button" class="btn btn-primary btnAddKoala" id="addButton">Add Koala</button>
+        </div>
+      </div>
+    </div>
+    <div id="table" class="row">
+
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th colspan="8">
+              <h2 id="allKoalas">
+                <span>All Koalas</span>
+                <button type="button" class="btn btn-primary btnAddKoala" id="showAllButton">Show Ready Koalas</button>
+              </h2>
+            </th>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Ready for Transfer</th>
+            <th>Notes</th>
+            <th>Actions</th>
+            <th>Delete Koala</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody id="viewKoalas">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

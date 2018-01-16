@@ -1,0 +1,18 @@
+{
+  "name": "koala-holla",
+  "version": "1.0.0",
+  "description": "<header><h1>Koala Holla</h1></header> =========== <body> <h1><b>Team We Care</b></h1>",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,117 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    width: 800px;
+    height: auto;
+}
+
+.page-header {
+    width: 800px;
+    background-color: grey;
+}
+
+#siteTitle {
+    float: left;
+    font-size: 40px;
+    margin: 28px 15px;
+    letter-spacing: 2px;
+}
+
+#allKoalas {
+    text-align: center;
+    
+}
+
+.fa {
+    margin: 2px;
+}
+
+.address {
+    font-size: 15px;
+    margin: 35px 8px;
+}
+
+#tableTitle {
+    background-color: #000;
+}
+
+#addKoala {
+    padding-top: 20px;
+}
+
+.btnAddKoala {
+    background: #679436;
+    color:  #fff;
+    border-color: #679436;
+}
+
+.btn-btnAddKoala:hover {
+    background: #33a6cc;
+}
+
+#banner {
+    font-family: 'Joti One',
+    cursive;
+    border: 2px solid #86BBD8;
+    width: 800px;
+    height: 105px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    /* background-color: #E1E1E1; */
+    background-color: #fff;
+    
+
+}
+
+#table {
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+#allKoalas {
+    /* font-family: 'Joti One', cursive; */
+    border: 2px solid #86BBD8;
+    background-color: #E1E1E1;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+    letter-spacing: 2px;
+    box-shadow: 1px 6px 4px -4px rgba(97, 93, 93, 0.49);
+    -webkit-box-shadow: 1px 6px 4px -4px rgba(97, 93, 93, 0.49);
+    -moz-box-shadow: 1px 6px 4px -4px rgba(97, 93, 93, 0.49);
+}
+
+.address {
+    padding-bottom: 20px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+#formLabel {
+    font-size: 25px;
+}
+
+th {
+    margin-right: 5px;
+}
