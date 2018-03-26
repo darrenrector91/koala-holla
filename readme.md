@@ -1,9 +1,10 @@
-<header><h1>Koala Holla</h1></header>
-===========
-<body>
-<h1><b>Team We Care</b></h1>
+## Koala Holla
 
-<h2><b>Steps to launch app</b></h2>
+Group project to build application that allows koalas to be tracked and moved
+    
+![KoalaHolla](https://i.imgur.com/eO1BmVY.png)
+
+Steps to launch app
 
 <ol>
     <li>Using terminal npm install needed dependencies</li>
@@ -14,7 +15,15 @@
     <li>Open IDE</li>
     <li>npm start in terminal</li>
 </ol>
-</body>
+
+## Technologies
+
+- jQuery
+- Node.js
+- Express.js
+- SQL
+- Bootstrap
+
 
 
 
